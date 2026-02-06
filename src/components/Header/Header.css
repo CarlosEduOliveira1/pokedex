@@ -4,21 +4,21 @@
     top: 0;
 }
 
-.headerLink {
+.header-link {
     display: flex;
     text-decoration: none;
     color: inherit;
 }
 
-.headerLink:hover {
+.header-link:hover {
     color: inherit;
     cursor: pointer;
 }
 
 #logo {
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
-#headerTitle {
+#header-title {
     font-size: 25px;
 }
