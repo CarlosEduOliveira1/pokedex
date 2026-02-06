@@ -1,0 +1,24 @@
+.Header {
+    position: sticky;
+    align-items: center;
+    top: 0;
+}
+
+.headerLink {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+}
+
+.headerLink:hover {
+    color: inherit;
+    cursor: pointer;
+}
+
+#logo {
+    margin-right: 5px;
+}
+
+#headerTitle {
+    font-size: 25px;
+}
