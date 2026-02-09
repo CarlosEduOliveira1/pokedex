@@ -1,5 +1,8 @@
 .Header {
-    position: sticky;
+    width: 100%;
+    position: fixed;
+    background-color: #DC0A2D;
+    z-index: 10;
     align-items: center;
     top: 0;
 }
