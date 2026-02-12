@@ -1,0 +1,27 @@
+.Header {
+    width: 100%;
+    position: fixed;
+    background-color: #DC0A2D;
+    z-index: 10;
+    align-items: center;
+    top: 0;
+}
+
+.header-link {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-link:hover {
+    color: inherit;
+    cursor: pointer;
+}
+
+#logo {
+    margin-right: 10px;
+}
+
+#header-title {
+    font-size: 25px;
+}
