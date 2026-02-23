@@ -1,14 +1,15 @@
 import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap-grid.min.css';
-import Body from "./components/Body/Body";
-import Header from "./components/Header/Header";
+import Pokedex from "./components/Pokedex/Pokedex";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Body />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Pokedex />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
